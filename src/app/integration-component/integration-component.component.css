@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-logo {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .header-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .add{
+    background-color: green; 
+    color: white;
+  }
+  .view{
+    background-color: blue; 
+    color: white;
+  }
+.dd{
+  background-color: green;
+  color: white;
+}
+  

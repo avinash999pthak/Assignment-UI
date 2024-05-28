@@ -1,0 +1,52 @@
+
+  <div class="container">
+    <div class="content">
+      <div class="row mt-2">
+        <div class="col-12 text-center">
+              <h4>User Details</h4>
+        </div>
+      </div>
+      <form (ngSubmit)="onSubmit()" #myForm="ngForm">
+        <div class="row form-group">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"><label for="name"><h3>Name&nbsp;<span style="color: red">*</span> :</h3></label></div>
+          <div class="col-md-4">
+          <input type="text" class="form-control" id="name" name="name" [(ngModel)]="formData.name" placeholder="Enter User name" required>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="row mt-2 form-group">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"><label for="name"><h3>Email&nbsp;<span style="color: red">*</span> :</h3></label></div>
+          <div class="col-md-4">
+          <input type="text" class="form-control" id="email" name="email" [(ngModel)]="formData.email"  placeholder="Enter User Email"  required>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="row mt-2 form-group">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"><label for="name"><h3>Phone Number&nbsp;<span style="color: red">*</span> :</h3></label></div>
+          <div class="col-md-4">
+          <input type="text" class="form-control" id="number" name="number" [(ngModel)]="formData.number" placeholder="Enter User Phone Number"  required>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+        <div class="row mt-2 form-group">
+          <div class="col-md-2"></div>
+          <div class="col-md-2"><label for="name"><h3>Address&nbsp;<span style="color: red">*</span> :</h3></label></div>
+          <div class="col-md-4">
+          <input type="text" class="form-control" id="address" name="address" [(ngModel)]="formData.address" placeholder="Enter User Address" required>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+       <div class="row mt-2">
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary" [disabled]="myForm.invalid">Submit</button>
+        </div>
+       </div>
+      
+      </form>
+    </div>
+  </div>
+
+  
