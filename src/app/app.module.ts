@@ -20,7 +20,7 @@ import {MatSortModule} from '@angular/material/sort';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import {MatSidenavModule} from '@angular/material/sidenav';
-import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+
 
 
 
@@ -49,7 +49,7 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
     MatSidenavModule,
     BrowserAnimationsModule,
     MatInputModule,
-    NgxExtendedPdfViewerModule ,
+    
     
   ],
   providers: [],

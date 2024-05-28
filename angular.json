@@ -30,9 +30,8 @@
               "src/styles.css"
             ],
             "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js",
-            "node_modules/jquery/dist/jquery.min.js",
-            "node_modules/pdfjs-dist/build/pdf.js",
-            "node_modules/pdfjs-dist/build/pdf.worker.js"
+            "node_modules/jquery/dist/jquery.min.js"
+            
         ]
           },
           "configurations": {
